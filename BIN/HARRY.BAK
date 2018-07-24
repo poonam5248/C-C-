@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i,n;
+clrscr();
+printf("Enter the number of second left:-");
+scanf("%d",&n);
+for(i=n;i>0;i--)
+{
+textcolor(7);
+cprintf("Happy birthday in %d sec",i);
+delay(1000);
+clrscr();
+}
+getch();
+}

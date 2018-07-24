@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a=1,n,i;
+clrscr();
+printf("Enter any number= ");
+scanf("%d",&n);
+for(i=n;i>=1;i--)
+{
+a=a*i;
+}
+printf("Factorial=%d",a);
+getch();
+}

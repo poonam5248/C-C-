@@ -1,0 +1,17 @@
+#include<iostream.h>
+#include<conio.h>
+
+template <class t>
+void sum(t x, t y)
+{
+t result;
+result=x+y;
+cout<<"Sum is= "<<result<<endl;
+}
+void main()
+{
+clrscr();
+sum(5,10);
+sum(10.2,5.2);
+getch();
+}
